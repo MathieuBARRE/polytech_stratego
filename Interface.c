@@ -8,8 +8,10 @@ typedef struct Pion{
 } Pion;
 
 typedef struct Joueur{
-	int nombreDeFautes; //init à 0
+	int nombreDeFautes; //init ï¿½ 0
 	int camp ; // blue ou rouge, pareil que les pions donc utiliser une enum;
 }Joueur ;
 
 typedef Terrain *Pion[10][10] ; // chaque case contient un pointeur vers un pion, case vide = NULL
+
+//YOLO
